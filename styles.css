@@ -21,7 +21,8 @@ nav {
   margin-bottom: 1%;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: oklch(80% 3% 200);
+  --border-color: oklch(50% 10% 200 / 40%);
+  border-bottom-color: var(--border-color);
 }
 nav a {
   flex: 1;
@@ -42,7 +43,7 @@ html {
 }
 nav a:hover {
     border-bottom: 0.4em solid var(--color-accent);
-    background-color: oklch(from var(--color-accent) 95% 5% h);
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 form {
     display: grid;
@@ -97,4 +98,19 @@ h3 {
 body > p {
     color: oklch(50% 0% 0);
     font-size: 0.9em;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 80%;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
