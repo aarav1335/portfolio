@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Abortion Visualizations",
+        "year": 2026,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "A DSC 106 group project at UCSD using Jupyter Notebooks to visualize abortion data."
+    },
+    {
+        "title": "Portfolio",
+        "year": 2026,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "My personal website's source code for DSC 106 Programming Labs."
+    },
+    {
+        "title": "Char RNN Text Generator",
+        "year": 2026,
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A COGS 181 final project using a character-level recurrent neural network trained on Shakespeare and Sherlock text."
+    },
+    {
+        "title": "Power Outages",
+        "year": 2025,
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A DSC 80 final project at UCSD focused on analyzing power outage data."
+    },
+    {
+        "title": "US Accident Severity Prediction",
+        "year": 2025,
+        "image": "https://dsc106.com/labs/lab02/images/empty.svg",
+        "description": "A COGS 108 group project repository from Fall 2025 built around predicting severity of car accidents in the USA using climate factors."
+    },
+    {
+        "title": "Libero aliquam blanditiis itaque.",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Odio sit nostrum molestias ipsa, beatae, quibusdam illum assumenda officiis itaque fuga expedita suscipit. Ad doloremque quo, quasi vero aliquid nihil neque distinctio deleniti placeat, suscipit atque obcaecati impedit sapiente."
+    },
+    {
+        "title": "Quam distinctio dolores cumque!",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Odio quia labore doloribus at tempore soluta velit voluptas sunt veritatis in, architecto deserunt nihil beatae ex blanditiis optio omnis inventore ipsa dolor excepturi illum quasi eos! Consectetur, molestiae ipsa!"
+    },
+    {
+        "title": "Earum necessitatibus quod in.",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Reprehenderit, culpa ut. Earum dolores ratione voluptates nam quod nulla vitae veniam, rerum odit inventore labore, iusto nesciunt tenetur repudiandae eum harum aut rem, non maxime! Tempore amet et voluptas!"
+    },
+    {
+        "title": "Nulla recusandae porro veniam!",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Odio ipsam obcaecati maxime minima eos illo natus, aut nesciunt voluptatum dolor aperiam repellendus expedita? Labore, provident. Rerum officiis porro eligendi, aliquam velit debitis suscipit, perferendis aperiam culpa consectetur molestias?"
+    },
+    {
+        "title": "Temporibus nulla esse voluptatibus.",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Debitis, alias tenetur maiores, laborum, optio repudiandae neque earum modi in saepe voluptatibus possimus libero molestias obcaecati similique eos quas quo asperiores. Voluptatum earum natus omnis. Similique itaque perferendis placeat."
+    },
+    {
+        "title": "Autem aperiam quas illo.",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Recusandae provident velit temporibus exercitationem dolores unde repudiandae iure placeat, esse vel incidunt! Doloremque odit sed non fuga omnis, nostrum incidunt distinctio tempora dicta temporibus, aut, et quod earum nesciunt?"
+    },
+    {
+        "title": "Corporis ipsa omnis error!",
+        "year": 2022,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Magni quo quia commodi saepe quidem dolorum voluptatem perferendis libero, dignissimos fugit eum suscipit itaque blanditiis ea totam explicabo, eveniet voluptas earum molestiae ducimus voluptate odit tempora similique velit? Perferendis."
+    }
+]
