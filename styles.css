@@ -133,3 +133,10 @@ body > p {
   margin: 0;
   font-size: 2rem;
 }
+
+.project-year {
+  font-family: Baskerville, serif;
+  font-variant-numeric: oldstyle-nums;
+  color: gray;
+  margin-top: 0.25em;
+}
