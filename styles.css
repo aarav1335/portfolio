@@ -142,16 +142,16 @@ body > p {
 
 #projects-pie-plot {
   max-width: 20em;
-  margin-block: 2em;
   overflow: visible;
 }
 
 .legend {
+  flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
   gap: 1em;
   padding: 1em;
-  margin-block: 1em 2em;
+  margin: 0;
   border: 1px solid oklch(80% 3% 200);
   list-style: none;
 }
@@ -168,4 +168,10 @@ body > p {
   aspect-ratio: 1;
   background-color: var(--color);
   border-radius: 50%;
+}
+
+.chart-container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
 }
