@@ -12,9 +12,7 @@ function $$(selector, context = document) {
 
 // currentLink?.classList.add("current");
 
-const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
-  ? "/"
-  : "/portfolio/"; 
+const BASE_PATH = "/portfolio/"; 
 
 let pages = [
   { url: "", title: "Home" },
