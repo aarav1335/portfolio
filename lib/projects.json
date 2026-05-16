@@ -1,5 +1,17 @@
 [
     {
+        "title": "BikeBoston",
+        "year": 2026,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "This repository contains an immersive, interactive map visualization of bike traffic in the Boston area during different times of the day."
+    },
+    {
+        "title": "Exploring Earth's Greenness",
+        "year": 2026,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Interactive Visualization for NASA MODIS dataset, as part of Project 3 - DSC 106."
+    },
+    {
         "title": "Abortion Visualizations",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
@@ -58,17 +70,5 @@
         "year": 2023,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Debitis, alias tenetur maiores, laborum, optio repudiandae neque earum modi in saepe voluptatibus possimus libero molestias obcaecati similique eos quas quo asperiores. Voluptatum earum natus omnis. Similique itaque perferendis placeat."
-    },
-    {
-        "title": "Autem aperiam quas illo.",
-        "year": 2023,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Recusandae provident velit temporibus exercitationem dolores unde repudiandae iure placeat, esse vel incidunt! Doloremque odit sed non fuga omnis, nostrum incidunt distinctio tempora dicta temporibus, aut, et quod earum nesciunt?"
-    },
-    {
-        "title": "Corporis ipsa omnis error!",
-        "year": 2022,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Magni quo quia commodi saepe quidem dolorum voluptatem perferendis libero, dignissimos fugit eum suscipit itaque blanditiis ea totam explicabo, eveniet voluptas earum molestiae ducimus voluptate odit tempora similique velit? Perferendis."
     }
 ]
