@@ -246,6 +246,10 @@ circle {
   transition: 200ms;
   transform-origin: center;
   transform-box: fill-box;
+
+  @starting-style {
+    r: 0;
+  }
 }
 
 circle:hover {
@@ -304,4 +308,104 @@ dl.info[hidden]:not(:hover, :focus-within) {
   stroke-opacity: 0.7;
   stroke-dasharray: 5 3;
   animation: marching-ants 2s linear infinite;
+}
+
+#files {
+  display: grid;
+  grid-template-columns: minmax(12em, 1fr) 4fr;
+  gap: 0.5em 1em;
+  margin-block: 2rem;
+}
+
+#files > div {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: subgrid;
+  padding-block: 0.4em;
+  border-top: 1px solid oklch(80% 3% 200 / 60%);
+}
+
+#files dt {
+  grid-column: 1;
+}
+
+#files dt small {
+  display: block;
+  color: gray;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+#files dd {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: start;
+  gap: 0.15em;
+  padding-top: 0.25em;
+  margin-left: 0;
+}
+
+.loc {
+  display: flex;
+  width: 0.5em;
+  aspect-ratio: 1;
+  background: var(--color);
+  border-radius: 50%;
+}
+
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+#scrolly-1 > * {
+  flex: 1;
+}
+
+#scatter-story {
+  position: relative;
+  top: 16px;
+}
+
+#scatter-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 100vh;
+  overflow: auto;
+}
+
+.step {
+  padding-block: 10vh;
+  border-top: 1px solid oklch(80% 3% 200);
+}
+
+
+@media (max-width: 800px) {
+  .commit-filter label,
+  #scrolly-1 {
+    display: block;
+  }
+
+  .commit-filter input {
+    width: 100%;
+  }
+
+  #scatter-plot {
+    position: static;
+    height: auto;
+  }
+
+  #files {
+    grid-template-columns: 1fr;
+  }
+
+  #files > div {
+    display: block;
+  }
 }
